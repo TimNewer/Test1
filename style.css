@@ -1,0 +1,279 @@
+
+html { background: #E5E5E5;}
+
+  body {
+  width: 1260px;
+
+  background: rgb(255, 255, 255) ;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+.logoStyle{
+  
+  display: flex;
+  width: 961px;
+  justify-content: space-between;
+  margin-top: 30px;
+  align-items: center;
+}
+.topLine {
+  width: 1260px;
+  height: 5px;
+  background: #9B51E0;
+}
+.logoText {
+  position: absolute;
+  left: 25px;
+  top: 12px;
+  width: 163px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+.logo{  
+
+  width: 50px;
+  height: 48px;
+  background: #FFFFFF;
+  border: 3px solid #FFC740;
+  box-sizing: border-box;
+}
+.box {
+  width: 158px;
+  height: 33px;
+  background: #FFFFFF;
+  border: 1px solid #6D3D99;
+  box-sizing: border-box;
+  padding: 0;
+}
+.buttonGo {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  border: 0;
+  color: #FFFFFF;
+  width: 42px;
+  height: 31px;
+  padding: 0;
+  background: #9B51E0;
+}
+ .menu {
+  display: flex;
+  width: 961px;
+  height: 47px;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+ }
+ .menuText:hover {
+  color: #FFFFFF;
+  background: #FFC740;
+ }
+ .menuText {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  width: 100%;
+  height: 33px;
+  text-decoration: none;
+  padding-top: 14px;
+  color: #050505;
+ }
+ .menuWidth {
+  display: flex;
+  width: 100%;
+ }
+.picture{
+  width: 961px;
+  height:332px; 
+  background-image:  url(img/Mountains-and-hills-julian-alps.png);
+  background-size: cover;
+  margin-bottom: 16px;
+}
+.pictureBlack{
+  width: 961px;
+  height:332px;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+.pictureText{
+  width: 509px;
+  margin-left: 44px;
+  font-size: 64px;
+  line-height: 75px;
+  padding-top:  19px;
+  color: #FFC740;
+  }
+  .pictureSmallText{
+  width: 451px;
+  height: 91px;
+  margin-top: 6px;
+  margin-left: 44px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+.buttonReadMore{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  width: 125px;
+  height: 34px;
+  margin-top: 6px;
+  margin-left: 45px;
+  background: #6D3D99;
+  align-items: center;
+  border: 0;
+  color: #FFFFFF;
+}
+.boxSuperLogo{
+  width: 460px;
+  margin-bottom: 16px;
+  margin-bottom: 16px;
+}
+.containerRelative{
+  position: relative;
+}
+.highLine{
+  width: 460px;
+  height: 16px;
+  background: #9B51E0;
+  margin-bottom: 14px;
+}
+.highLineYellow{
+  width: 460px;
+  height: 16px;
+  background: #FFC740;
+  margin-bottom: 14px;
+}
+.highLineText{
+  position: absolute;
+  top: 0px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  padding-left: 3px ;
+  padding-right: 3px;
+  color: #000000;
+  margin-left: 16px;
+  background-color: #FFFFFF;
+}
+.smallPicture{
+  width: 142px;
+  height: 141px;
+  border: 2px solid #FFC740;
+  box-sizing: border-box;
+}
+.smallPicturePadding{
+  width: 138px;
+  height: 137px;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+}
+.boxText{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.containerText{
+  display: flex;
+  justify-content: space-between;
+}
+.boxTextSmall{
+  width: 300px;
+  text-align: justify;
+  color: #000000;
+}
+.grid{
+  width: 940px;  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
+  grid-row-gap: 3em;
+  margin-top: 1em;
+}
+.smallBox{
+  height: 148px;
+}
+.SmallhighLine{
+  width: 300px;
+  background: #FFC740;
+  padding-bottom: 1em;
+  background: #9B51E0;
+}
+.SmallhighLineYellow{
+  width: 300px;
+  height: 16px;
+  background: #FFC740;
+  margin-bottom:  16px;
+}
+.textBlocks{
+  display: grid;
+  width: 940px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.smallIconPadding{
+  width: 38px;
+  height: 38px;
+  background: #C4C4C4;
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+  margin-right: 9px;
+}
+.smallIcon{
+  width: 36px;
+  height: 36px;
+}
+.blockWidth{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+    height: 45px;
+}
+.textJustify{
+  text-align: justify;
+}
+.bottomLine{
+  width: 940px;
+  height: 16px;
+  background: #9B51E0;
+}
+.clients{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 840px;
+  height: 131px;
+  margin-top: 9px;
+}
+.footer{
+  width: 1260px;
+  height: 115px;
+  background: #6D3D99;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.footerText{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
