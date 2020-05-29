@@ -1,9 +1,10 @@
 
-html { background: #E5E5E5;}
+html {
+  background: #E5E5E5;
+}
 
   body {
   width: 1260px;
-
   background: rgb(255, 255, 255) ;
   display: flex;
   flex-direction: column;
@@ -14,10 +15,8 @@ html { background: #E5E5E5;}
   font-weight: normal;
   font-size: 12px;
   line-height: 14px;
-  color: #000000;
 }
 .logoStyle{
-  
   display: flex;
   width: 961px;
   justify-content: space-between;
@@ -38,10 +37,8 @@ html { background: #E5E5E5;}
   font-size: 24px;
   line-height: 28px;
   background-color: #FFFFFF;
-  color: #000000;
 }
 .logo{  
-
   width: 50px;
   height: 48px;
   background: #FFFFFF;
@@ -54,17 +51,14 @@ html { background: #E5E5E5;}
   background: #FFFFFF;
   border: 1px solid #6D3D99;
   box-sizing: border-box;
-  padding: 0;
 }
 .buttonGo {
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
-  border: 0;
   color: #FFFFFF;
   width: 42px;
   height: 31px;
-  padding: 0;
   background: #9B51E0;
 }
  .menu {
@@ -80,9 +74,6 @@ html { background: #E5E5E5;}
   background: #FFC740;
  }
  .menuText {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 16px;
   width: 100%;
@@ -139,6 +130,9 @@ html { background: #E5E5E5;}
   border: 0;
   color: #FFFFFF;
 }
+.buttonReadMore:hover{
+cursor: pointer;
+}
 .boxSuperLogo{
   width: 460px;
   margin-bottom: 16px;
@@ -174,13 +168,8 @@ html { background: #E5E5E5;}
 .smallPicture{
   width: 142px;
   height: 141px;
+  padding: 2px;
   border: 2px solid #FFC740;
-  box-sizing: border-box;
-}
-.smallPicturePadding{
-  width: 138px;
-  height: 137px;
-  border: 2px solid #FFFFFF;
   box-sizing: border-box;
 }
 .boxText{
