@@ -102,4 +102,8 @@ describe ("catFactory(defaults) catsGroupGenerate(defaults)",()=> {
     };
   });
 });
-
+describe ("catFactory",()=> {
+  it ("Добавление нового свойства loudness в catFactory ", function() {
+    assert.property(script.catFactory(),loudness);
+  });
+});
