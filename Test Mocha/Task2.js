@@ -20,6 +20,7 @@ function catFactory(defaults){
         gender: pick(['m','w']),
         legsCount: pick([2,3,4]),
         tailLength: pick([10,20,30,40]),
+        loudness: undefined
         };
         for(key in defaults){
             obj[key] = pick([defaults[key]]);
